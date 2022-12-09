@@ -19,7 +19,7 @@ I want to become a frontend developer, I also like programming because it is a b
   CSS.
   JavaScript (Fundamentals).
   Python (basic knowledge)
-  Linux(Ubuntu), MacOS.
+  Linux, MacOS.
   Figma, Photoshop.
   Editors: VSCode, Sublime, Brackets.
 
@@ -43,4 +43,4 @@ I am fond of music, previously worked as a sound engineer, had experience in tes
 
 # Languages
 
-English - A2 
+English - A2
