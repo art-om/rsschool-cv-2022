@@ -15,13 +15,13 @@ I want to become a frontend developer, I also like programming because it is a b
 
 # Skills
 
-    HTML.
-    CSS.
-    JavaScript (Fundamentals).
-    Python (basic knowledge)
-    Linux(Ubuntu), MacOS.
-    Figma, Photoshop.
-    Editors: VSCode, Sublime, Brackets.
+  HTML.
+  CSS.
+  JavaScript (Fundamentals).
+  Python (basic knowledge)
+  Linux(Ubuntu), MacOS.
+  Figma, Photoshop.
+  Editors: VSCode, Sublime, Brackets.
 
 # Code Examples
 
@@ -43,5 +43,4 @@ I am fond of music, previously worked as a sound engineer, had experience in tes
 
 # Languages
 
-    Russian - native speaker
-    English - A2 
+English - A2 
