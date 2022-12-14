@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&family=Raleway:wght@600;700&family=Zen+Old+Mincho:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>    
+    <link rel="stylesheet" href="css/style.css">
+    <title>portfolio</title>
+</head>
+<body>
+    <div class="wrapper">
+
+      <div class="nav-menu">
+        <button class="menu-icon">
+          <div class="menu-icon__line"></div>
+        </button>
+      </div>
+
+      <div class="header">
+        <a class="header__logo" href="#">
+          <img src="image/logo.png" alt="header__logo">
+        </a>
+        <div class="header__inner">
+          <h1 class="header__title">Turov Artem</h1>
+          <h2 class="subheader__title">Junior Frontend Developer</h2>
+        </div>
+        <nav class="nav">
+        <ul class="menu__list">
+          <li class="menu__list-item"><a class="menu__list-link" href="#body">Home</a></li>
+          <li class="menu__list-item"><a class="menu__list-link" href="#about">About Me</a></li>
+          <li class="menu__list-item"><a class="menu__list-link" href="#skills">Skills</a></li>
+          <li class="menu__list-item"><a class="menu__list-link" href="#main">Projects</a></li>
+          <li class="menu__list-item"><a class="menu__list-link" href="#languages">Languages</a></li> 
+          <li class="menu__list-item"><a class="menu__list-link" href="#courses">Courses and education</a></li>
+          <li class="menu__list-item"><a class="menu__list-link" href="#coding">Code example</a></li>         
+          <li class="menu__list-item"><a class="menu__list-link" href="#contacts">Contact</a></li>
+        </ul>
+        </nav>
+
+
+      </div>
+
+  <div class="grid">
+
+    <div class="about" id="about">
+      <h2 class="title about__title">About Me</h2>
+      <p class="about__text">I like programming because it's an area where you can develop endlessly. After trying Python, C++, I stopped at Frontend. It gives a clear idea of what you are doing. I have studied HTML, CSS, basic JS, and am currently taking a Java Script/Front-End course at RS School. </p>
+    </div>
+
+    <div class="skills" id="skills">
+      <h2 class="title skills__title">Skills</h2>
+      <ul class="skills__items">
+        <li class="skills__text">HTML</li>
+        <li class="skills__text">CSS</li>
+        <li class="skills__text">JS (basic)</li>
+        <li class="skills__text">Git</li>
+        <li class="skills__text">Figma</li>
+      </ul>
+    </div>
+
+    <main class="main" id="main">
+      <h2 class="title main__title">Projects</h2>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="https://art-om.github.io/Xiaomi_Himo/"><img src="./image/swiper/1.jpg" alt="layout_Xiaomi_Himo"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="https://art-om.github.io/Solar/"><img src="./image/swiper/2.jpg" alt="layout_Solar"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="https://art-om.github.io/sup/"><img src="./image/swiper/3.jpg" alt="layout_Sup"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="https://art-om.github.io/Kosmos/"><img src="./image/swiper/4.jpg" alt="layout_Kosmos"></a>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </main>
+
+    <div class="courses" id="courses">
+      <h2 class="title courses__title">Courses and education</h2>
+      <ul class="courses__items">
+        <li><a href="https://htmlacademy.ru/" class="courses__text">htmlacademy</a></li>
+        <li><a href="https://www.w3schools.com/" class="courses__text">HTML and CSS Tutorials on w3schools</a></li>
+        <li><a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/" class="courses__text">
+          The Complete Web Development Bootcamp</a>
+        </li>
+      </ul>
+
+      <div class="languages" id="languages">
+        <h2 class="title">Languages</h2>
+        <p>English B2</p>
+      </div>
+    </div> 
+
+    <div class="contacts" id="contacts">
+      <h2 class="title title__contacts">Contacts</h2>
+      <ul class="contacts__items">
+        <ul class="contacts__list">Russia, Mountain Altai</ul>
+        <ul class="contacts__list"><a href="tel:+79132557035">+79132557035</a></ul>
+        <ul class="contacts__list">Discord: art_om#5823</ul>
+      </ul>
+      <ul class="socials">
+        <li><a href="https://t.me/art_oms" class="socials__link"><img class="socials__icon" src="./image/telegram.svg" alt="telegram"></a></li>
+        <li><a href="https://github.com/art-om" class="socials__link"><img class="socials__icon" src="./image/git.svg" alt="git"></a></li>
+        <li><a href="mailto:mail3.a.3@gmail.ru" class="socials__link"><img class="socials__icon" src="./image/gmail.svg" alt="gmail"></a></li>
+      </ul>
+    </div>
+  
+    <div class="coding" id="coding">
+      <h2 class="title coding__title">Code example</h2>
+      <div class="code">
+        <pre><code>
+          function lifeInWeeks(age) {
+            let yearsRemaining = 70 - age;
+            let days = yearsRemaining * 365;
+            let weeks = yearsRemaining * 52;
+            let months = yearsRemaining * 12;
+            console.log(
+              'You have ' + days + 
+              ' days ' + weeks + 
+              ' weeks ' + months + ' months'
+            );
+          }
+        </code></pre>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    <ul class="footer__list">
+      <li><a href="https://rs.school/js/" class="socials__link"><img class="socials__icon" src="./image/rs_school.svg" alt="rs_school"></a></li>
+      <li class="socials__link">2022</li>
+      <li><a href="https://github.com/art-om" class="socials__link"><img class="socials__icon" src="./image/github-cat.svg" alt="github-cat"></a></li>
+    </ul>
+  </footer>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
